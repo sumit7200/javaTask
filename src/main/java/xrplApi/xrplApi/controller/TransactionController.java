@@ -13,6 +13,7 @@ import java.util.List;
 public class TransactionController {
 
 
+    @Autowired
     private final TransactionService xrpService;
 
     @Autowired
